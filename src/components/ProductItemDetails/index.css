@@ -9,7 +9,9 @@
     margin-top: 64px;
   }
 }
-
+.link-items{
+    text-decoration: none;
+}
 .product-details-success-view {
   width: 85%;
   max-width: 550px;

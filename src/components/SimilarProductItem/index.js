@@ -7,7 +7,7 @@ const SimilarProductItem = props => {
 
   return (
     <li className="similar-product-item">
-      <Link to={`/products/${id}`}>
+      <Link to={`/products/${id}`} className="link-items">
         <img
           src={imageUrl}
           className="similar-product-image"

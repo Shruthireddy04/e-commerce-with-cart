@@ -185,7 +185,10 @@ class ProductItemDetails extends Component {
             <h1 className="similar-products-heading">Similar Products</h1>
             <ul className="similar-products-list">
               {similarProductsData.map(eachSimilarProduct => (
-                <Link to={`/products/${eachSimilarProduct.id}`}>
+                <Link
+                  to={`/products/${eachSimilarProduct.id}`}
+                  className="link-items"
+                >
                   <SimilarProductItem
                     productDetails={eachSimilarProduct}
                     key={eachSimilarProduct.id}
